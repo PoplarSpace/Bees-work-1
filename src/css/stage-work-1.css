@@ -1,0 +1,260 @@
+.main-part {
+    background-color: #f0c9cf;
+}
+
+a {
+    color: #1772b4;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sec-1-txt {
+    text-align: justify;
+    text-justify: inter-ideograph;
+    text-indent: 2em;
+    flex-wrap: wrap;
+}
+
+.data-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.data-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.data-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sec-1 {
+    margin-top: 70px;
+    margin-left: 70px;
+    background-color: #f0a1a8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sec-2 {
+    margin-top: 10px;
+    margin-right: 70px;
+    /* margin-left: 300px; */
+    background-color: #f07c82;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sec-3 {
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #c04851;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sec-4 {
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    background-color: #f07c82;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sec-5 {
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #ec9bad;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sec-6 {
+    margin-top: 10px;
+    margin-right: 70px;
+    margin-left: 70px;
+    background-color: #f07c82;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+li {
+    margin: 20px;
+}
+
+.link:hover {
+    color: #61649f;
+}
+
+.link-lists {
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: #eea2a4;
+    border-radius: 10px;
+    padding: 10px;
+    padding-right: 150px
+}
+
+.peacher-1 {
+    width: 70vw;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.peacher-2 {
+    position: fixed;
+    width: 40px;
+    right: 100px;
+}
+
+.peacher-2:hover {
+    transform: rotate(360deg);
+    transition: all 2s;
+    content: attr(title);
+}
+
+.peacher-3 {
+    margin: 20px 50px;
+}
+
+.peacher-3:hover {
+    transform: rotate(60deg);
+    transition: all 2s;
+}
+
+.peacher-4 {
+    margin: 20px 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.peacher-4:hover {
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+table {
+    border: 2px solid black;
+    margin: 50px 100px;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.inf-collect {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 200px;
+}
+
+input {
+    height: 40px;
+    margin: 20px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    outline: medium;
+}
+
+input:hover {
+    border: crimson 2px solid;
+}
+
+input:focus {
+    border: crimson 2px solid;
+}
+
+label {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.sex-select {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 100px;
+}
+
+select {
+    height: 40px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 20px 30px;
+    font-size: 15px;
+    border: medium;
+    cursor: pointer;
+}
+
+.hobby-select {
+    margin: 10px 40px;
+}
+
+.hobby {
+    height: 15px;
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 10px 40px 0px 10px;
+    cursor: pointer;
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: #f07c82;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #f07c82;
+    border: crimson 2px solid;
+}
+
+textarea {
+    border-radius: 5px;
+    border: none;
+    outline: medium;
+    width: 800px;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+textarea:hover {
+    border: crimson 2px solid;
+}
+
+textarea:focus {
+    border: crimson 2px solid;
+}
+
+footer {
+    margin-left: 1000px;
+}
